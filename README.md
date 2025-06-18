@@ -42,6 +42,24 @@ Install other dependencies.
 ```
 pip install -r requirements.txt 
 ```
+## Environment Setup for compute canada 
+Install PyTorch3D. 
+```
+pip install  pytorch3d
+```
+Install BPS.
+```
+pip install git+https://github.com/otaheri/chamfer_distance
+pip install git+https://github.com/otaheri/bps_torch
+```
+Install human_body_prior. 
+```
+git clone https://github.com/nghorbani/human_body_prior.git
+pip install tqdm dotmap PyYAML omegaconf loguru
+cd human_body_prior/
+python setup.py develop
+```
+
 
 ### Prerequisites 
 Please download [SMPL-X](https://smpl-x.is.tue.mpg.de/index.html) and put the model to ```data/smpl_all_models/```.
