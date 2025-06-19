@@ -42,10 +42,10 @@ Install other dependencies.
 ```
 pip install -r requirements.txt 
 ```
-## Environment Setup for compute canada 
+## Environment Setup for Compute Canada 
 Install PyTorch3D. 
 ```
-pip install  pytorch3d
+pip install pytorch3d
 ```
 Install BPS.
 ```
@@ -63,15 +63,12 @@ pip install einops==0.4.1 pyopengl==3.1.0 ema-pytorch==0.0.10 wandb==0.12.21
 module load StdEnv/2023 
 module load nodejs/20.16
 pip install scenepic==1.0.7
-
 ```
 
 
 
-
-
 ### Prerequisites 
-Please download [SMPL-X](https://smpl-x.is.tue.mpg.de/index.html) and put the model to ```data/smpl_all_models/```.
+Please download [SMPL-X](https://smpl-x.is.tue.mpg.de/index.html) and put the model to ```data/smpl_all_models/```, structure ```data/smpl_all_models/smplx```.
 
 If you would like to generate visualizations, please download [Blender](https://www.blender.org/download/) first. And modify ```BLENDER_PATH, BLENDER_UTILS_ROOT_FOLDER, BLENDER_SCENE_FOLDER``` in line 8-10 of ```chois_release/manip/vis/blender_vis_mesh_motion.py```. 
 
