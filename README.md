@@ -46,6 +46,7 @@ pip install -r requirements.txt
 Install PyTorch3D. 
 ```
 pip install pytorch3d
+pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2
 ```
 Install BPS.
 ```
@@ -55,6 +56,10 @@ pip install git+https://github.com/otaheri/bps_torch
 Install human_body_prior. 
 ```
 pip install -U --no-deps smplx==0.1.28 git+https://github.com/nghorbani/human_body_prior.git
+```
+Install CLIP
+```
+pip install git+https://github.com/openai/CLIP.git
 ```
 Install other requirements
 ```
