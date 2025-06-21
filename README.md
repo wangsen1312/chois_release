@@ -56,7 +56,7 @@ module load opencv/4.10
 Install PyTorch3D. 
 ```
 pip install pytorch3d
-pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2
+pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1
 ```
 Install BPS.
 ```
