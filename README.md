@@ -84,6 +84,8 @@ pip install einops==0.4.1 pyopengl==3.1.0 ema-pytorch==0.0.10 wandb==0.12.21
 ```
 running in CPU to download CLIP 
 
+revise the code https://github.com/lijiaman/chois_release/issues/9
+
 use sbatch
 
 
