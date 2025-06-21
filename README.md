@@ -67,8 +67,11 @@ pip install joblib imageio==2.19.3 imageio-ffmpeg==0.4.7 trimesh scikit-learn sc
 pip install einops==0.4.1 pyopengl==3.1.0 ema-pytorch==0.0.10 wandb==0.12.21
 module load StdEnv/2023 
 module load nodejs/20.16
-pip install scenepic==1.0.7
+# omit this repo pip install scenepic==1.0.7
 ```
+running in CPU to download CLIP 
+
+use sbatch
 
 
 
