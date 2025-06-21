@@ -55,8 +55,12 @@ module load opencv/4.10
 
 Install PyTorch3D. 
 ```
-pip install pytorch3d
 pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1
+pip install ninja
+
+git clone https://github.com/facebookresearch/pytorch3d.git
+cd pytorch3d
+python setup.py install --user
 ```
 Install BPS.
 ```
