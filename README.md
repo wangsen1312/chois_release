@@ -46,6 +46,7 @@ pip install -r requirements.txt
 
 Set up environment
 ```
+module load python/3.11
 virtualenv --no-download chois
 source ~/projects/def-name/envs/chois/bin/activate
 module load cuda/12.2
@@ -53,14 +54,9 @@ module load StdEnv/2023
 module load opencv/4.10
 ```
 
-Install PyTorch3D. 
+Install PyTorch3D and pytorch. 
 ```
-pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1
-pip install ninja
-
-git clone https://github.com/facebookresearch/pytorch3d.git
-cd pytorch3d
-python setup.py install --user
+pip install pytorch3d==0.7.8
 ```
 Install BPS.
 ```
